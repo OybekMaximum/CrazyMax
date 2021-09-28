@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB13A9BB270358550051D9A6 /* CrazyMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9BA270358550051D9A6 /* CrazyMaxApp.swift */; };
-		AB13A9BD270358550051D9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9BC270358550051D9A6 /* ContentView.swift */; };
 		AB13A9BF270358560051D9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB13A9BE270358560051D9A6 /* Assets.xcassets */; };
 		AB13A9C2270358560051D9A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB13A9C1270358560051D9A6 /* Preview Assets.xcassets */; };
 		AB13A9C4270358560051D9A6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9C3270358560051D9A6 /* Persistence.swift */; };
@@ -16,6 +15,9 @@
 		AB13A9D1270358560051D9A6 /* CrazyMaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9D0270358560051D9A6 /* CrazyMaxTests.swift */; };
 		AB13A9DB270358560051D9A6 /* CrazyMaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9DA270358560051D9A6 /* CrazyMaxUITests.swift */; };
 		AB13A9DD270358560051D9A6 /* CrazyMaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9DC270358560051D9A6 /* CrazyMaxUITestsLaunchTests.swift */; };
+		AB13A9EB27035ADA0051D9A6 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9EA27035ADA0051D9A6 /* Screen1.swift */; };
+		AB13A9ED27035AF30051D9A6 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9EC27035AF30051D9A6 /* Screen2.swift */; };
+		AB13A9F027036BAD0051D9A6 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13A9EF27036BAD0051D9A6 /* HomeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AB13A9B7270358550051D9A6 /* CrazyMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB13A9BA270358550051D9A6 /* CrazyMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyMaxApp.swift; sourceTree = "<group>"; };
-		AB13A9BC270358550051D9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB13A9BE270358560051D9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB13A9C1270358560051D9A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB13A9C3270358560051D9A6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		AB13A9D6270358560051D9A6 /* CrazyMaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyMaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB13A9DA270358560051D9A6 /* CrazyMaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyMaxUITests.swift; sourceTree = "<group>"; };
 		AB13A9DC270358560051D9A6 /* CrazyMaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyMaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB13A9EA27035ADA0051D9A6 /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		AB13A9EC27035AF30051D9A6 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		AB13A9EF27036BAD0051D9A6 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		AB13A9AE270358550051D9A6 = {
 			isa = PBXGroup;
 			children = (
+				AB13A9EE27036B9D0051D9A6 /* Cells */,
+				AB13A9E927035AC70051D9A6 /* Screens */,
 				AB13A9B9270358550051D9A6 /* CrazyMax */,
 				AB13A9CF270358560051D9A6 /* CrazyMaxTests */,
 				AB13A9D9270358560051D9A6 /* CrazyMaxUITests */,
@@ -99,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				AB13A9BA270358550051D9A6 /* CrazyMaxApp.swift */,
-				AB13A9BC270358550051D9A6 /* ContentView.swift */,
 				AB13A9BE270358560051D9A6 /* Assets.xcassets */,
 				AB13A9C3270358560051D9A6 /* Persistence.swift */,
 				AB13A9C5270358560051D9A6 /* CrazyMax.xcdatamodeld */,
@@ -131,6 +136,23 @@
 				AB13A9DC270358560051D9A6 /* CrazyMaxUITestsLaunchTests.swift */,
 			);
 			path = CrazyMaxUITests;
+			sourceTree = "<group>";
+		};
+		AB13A9E927035AC70051D9A6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AB13A9EA27035ADA0051D9A6 /* Screen1.swift */,
+				AB13A9EC27035AF30051D9A6 /* Screen2.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AB13A9EE27036B9D0051D9A6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB13A9EF27036BAD0051D9A6 /* HomeCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB13A9ED27035AF30051D9A6 /* Screen2.swift in Sources */,
 				AB13A9C7270358560051D9A6 /* CrazyMax.xcdatamodeld in Sources */,
+				AB13A9EB27035ADA0051D9A6 /* Screen1.swift in Sources */,
 				AB13A9C4270358560051D9A6 /* Persistence.swift in Sources */,
-				AB13A9BD270358550051D9A6 /* ContentView.swift in Sources */,
+				AB13A9F027036BAD0051D9A6 /* HomeCell.swift in Sources */,
 				AB13A9BB270358550051D9A6 /* CrazyMaxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
