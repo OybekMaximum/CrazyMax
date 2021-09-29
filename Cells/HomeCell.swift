@@ -32,11 +32,16 @@ struct HomeCell: View {
             Spacer()
             HStack{
             Text(task.type!).foregroundColor(Color.red)
+                
                 Button(action: {
                     moc.delete(task)
                 }) {
+                    VStack{
                     Image(systemName: "trash")
+                    Text("Trash").font(.system(size: 10))
+                    }
                 }
+                    
                 
             }
         }
